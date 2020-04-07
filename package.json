@@ -1,0 +1,22 @@
+{
+  "name": "shop-kart",
+  "version": "1.0.0",
+  "description": "COMPLETE NODE JS GUIDE",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.5"
+  }
+}
